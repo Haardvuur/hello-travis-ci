@@ -1,2 +1,2 @@
 # hello-travis-ci
-A ptoject to learn and explore travis ci
+A project to learn and explore travis ci
