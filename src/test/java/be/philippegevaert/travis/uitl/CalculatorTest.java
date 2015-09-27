@@ -22,8 +22,8 @@ public class CalculatorTest {
   
   @Test
   public final void testDeduct() {
-    int result = calculator.deduct(1, 1);
-    assertEquals(0, result);
+    int result = calculator.deduct(3, 2);
+    assertEquals(1, result);
   }
 
 }
