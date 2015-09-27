@@ -19,5 +19,11 @@ public class CalculatorTest {
     int result = calculator.add(1, 1);
     assertEquals(2, result);
   }
+  
+  @Test
+  public final void testDeduct() {
+    int result = calculator.deduct(1, 1);
+    assertEquals(0, result);
+  }
 
 }
