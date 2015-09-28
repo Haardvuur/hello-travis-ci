@@ -31,5 +31,11 @@ public class CalculatorTest {
     int result = calculator.multiply(3, 2);
     assertEquals(6, result);
   }
+  
+  @Test
+  public final void testMultiplyAgain() {
+    int result = calculator.multiply(3, 4);
+    assertEquals(12, result);
+  }
 
 }
