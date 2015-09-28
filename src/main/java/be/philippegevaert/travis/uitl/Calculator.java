@@ -12,4 +12,11 @@ public class Calculator {
   public int multiply(int i, int j) {
     return i * j;
   }
+
+  public int devide(int i, int j) throws DevideException {
+    if (j != 0) {
+      return i / j;
+    }
+    throw new DevideException();
+  }
 }
