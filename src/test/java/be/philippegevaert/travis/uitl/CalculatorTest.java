@@ -37,5 +37,18 @@ public class CalculatorTest {
     int result = calculator.multiply(3, 4);
     assertEquals(12, result);
   }
+  
+  @Test
+  public final void testDevide() throws DevideException {
+    int result = calculator.devide(10, 2);
+    assertEquals(5, result);
+  }
+  
+  @Test(expected=DevideException.class)
+  public final void testDevideException() throws DevideException {
+    calculator.devide(10, 0);
+
+  }
+  
 
 }
